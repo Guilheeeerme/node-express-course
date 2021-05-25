@@ -4,7 +4,7 @@
 
 const { readFile, writeFile } = require("fs");
 
-// Callback Hell :P
+// Callback Hell :P  ( async await in the 2-await.pattern.js )
 
 console.log("start");
 readFile("./content/first.txt", "utf8", (err, result) => {
